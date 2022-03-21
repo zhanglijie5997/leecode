@@ -4,7 +4,6 @@
  * @return {number}
  */
 const removeDuplicates = function (nums) {
-    const a = 'dd';
     return [...new Set(nums)].length;
 };
 

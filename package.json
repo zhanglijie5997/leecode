@@ -4,8 +4,9 @@
     "description": "",
     "main": "1636.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "nodemon index.js"
+        "test": "",
+        "start": "nodemon index.js",
+        "prepare": "husky install"
     },
     "keywords": [],
     "author": "",
