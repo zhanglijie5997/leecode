@@ -1,0 +1,35 @@
+{
+    "name": "deno",
+    "version": "1.0.0",
+    "description": "",
+    "main": "1636.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@commitlint/cli": "^16.2.3",
+        "@commitlint/config-conventional": "^16.2.1",
+        "nodemon": "^2.0.15",
+        "prettier": "^2.6.0"
+    },
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "lint-staged": "^12.3.7"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run test",
+            "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.{js,jsx}": [
+            "eslint --fix",
+            "git add"
+        ]
+    }
+}
