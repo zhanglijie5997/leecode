@@ -4,9 +4,20 @@
  * @return {number}
  */
 const removeDuplicates = function (nums) {
-    return [...new Set(nums)].length;
+    if (nums.length <= 1) {
+        return nums.length;
+    }
+    let fist = 1,
+        slow = 1;
+    while (fist < nums.length) {
+        if (nums[fist] !== nums[fist - 1]) {
+            nums[slow] = nums[fist];
+            ++slow;
+        }
+        ++fist;
+    }
+    return slow;
 };
 
 console.log(removeDuplicates([1, 1, 2]));
 console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]));
-console.log(removeDuplicates([1, 2315, 33132, 212, 23, 122]));

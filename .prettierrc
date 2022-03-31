@@ -1,9 +1,8 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/react"],
-  "singleQuote": true,
-  "printWidth": 200,
-  "htmlWhitespaceSensitivity": "ignore",
-  "semi": true,
-  "disableLanguages": ["vue"],
-  "tabWidth": 4
+    "extends": ["plugin:vue/essenial", "@vue/prettier", "airbnb", "prettier", "prettier/react"],
+    "singleQuote": true,
+    "printWidth": 200,
+    "htmlWhitespaceSensitivity": "ignore",
+    "semi": true,
+    "tabWidth": 4
 }

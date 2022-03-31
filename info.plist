@@ -1,0 +1,24 @@
+// 是否允许App访问您的媒体资料库
+<key>NSAppleMusicUsageDescription</key>
+<string>Popbazzar wants to access your media library.</string>
+// 访问日历历史权限，具体
+<key>NSCalendarsUsageDescription</key>
+<string>Please allow access where you can view your daily browsing history</string>
+// 相机使用权限
+<key>NSCameraUsageDescription</key>
+<string>Popbazzar wants to access your camera</string>
+// 本地网络使用权限
+<key>NSLocalNetworkUsageDescription</key>
+<string>"Popazzar" does not connect to devices on your network and only detects connectivity to your local gateway. Users can also modify app permission Settings in the 'Settings -&gt; Privacy -&gt; Local Network' interface.</string>
+// 保存图片到相册权限
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>Popbazzar want  to save pictures to the album</string>
+// 相册使用权限
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Popbazzar wants to access your photos.</string>
+// 这个应用程序试图访问隐私敏感的数据
+<key>NSUserTrackingUsageDescription</key>
+<string>Do you want to allow Popbazzar to track your records on other company apps and websites</string>
+// 语音识别权限
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>Please allow APP to access your microphone</string>
